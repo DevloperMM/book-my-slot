@@ -6,22 +6,10 @@ const Configuration: UserConfig = {
     'type-enum': [
       2,
       'always',
-      [
-        'build',
-        'chore',
-        'ci',
-        'docs',
-        'feat',
-        'fix',
-        'perf',
-        'refactor',
-        'revert',
-        'style',
-        'test',
-      ],
+      ['build', 'chore', 'ci', 'docs', 'feat', 'fix', 'perf', 'refactor', 'revert', 'style', 'test']
     ],
-    'subject-case': [2, 'always', 'lower-case'],
-  },
+    'subject-case': [2, 'always', 'lower-case']
+  }
 }
 
 export default Configuration

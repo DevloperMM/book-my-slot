@@ -1,7 +1,7 @@
-import { defineConfig, globalIgnores } from 'eslint/config';
-import nextVitals from 'eslint-config-next/core-web-vitals';
-import nextTs from 'eslint-config-next/typescript';
-import nextPrettier from 'eslint-config-prettier';
+import { defineConfig, globalIgnores } from 'eslint/config'
+import nextVitals from 'eslint-config-next/core-web-vitals'
+import nextTs from 'eslint-config-next/typescript'
+import nextPrettier from 'eslint-config-prettier'
 
 const eslintConfig = defineConfig([
   ...nextVitals,
@@ -23,6 +23,6 @@ const eslintConfig = defineConfig([
       quotes: ['error', 'single', { allowTemplateLiterals: true }]
     }
   }
-]);
+])
 
-export default eslintConfig;
+export default eslintConfig

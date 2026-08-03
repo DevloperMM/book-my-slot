@@ -1,0 +1,27 @@
+# Build outputs and artifacts
+.next/
+out/
+build/
+dist/
+
+# Dependencies
+node_modules/
+
+# Coverage reports
+coverage/
+
+# Next.js specific files you may not want to format
+next-env.d.ts
+
+# Lock files and configuration files (optional but recommended)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# Local environment variables
+.env*.local
+
+# Cache folders
+.turbo/
+.cache/
